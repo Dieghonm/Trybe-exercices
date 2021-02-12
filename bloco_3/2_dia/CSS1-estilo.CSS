@@ -1,0 +1,22 @@
+      body {
+        font-size: 16px;
+        font-style: monospace;
+        background-color: pink;
+      }
+      h1 {
+        font-size: 65px;
+        color:orange;
+        font-family: sans-serif;
+        text-decoration: underline;
+        background-color: palevioletred;
+        }
+      .lista {
+        background-color: palegoldenrod;
+        text-align: center;
+      }
+      p {
+        font-size: 3em;
+        line-height:2;
+        background-color: paleturquoise;
+    
+      }
