@@ -1,0 +1,49 @@
+ol{
+  background-color: yellow;
+  text-transform: uppercase;
+}
+ol li:nth-of-type(2n){
+  color: pink
+}
+ol li:nth-of-type(4){
+  text-transform: none;
+}
+h1, h3{
+  color: red;
+}
+h1, h3:target i {
+  font-size: 40px;
+}
+
+li{
+  font-size: 20px;
+}
+li:target i {
+  font-weight: 800;
+}
+
+ul:nth-of-type(1) li:nth-child(-n+3){
+  color: blue;
+}
+ul:nth-last-of-type(2) li:nth-child(2), ul:nth-last-of-type(2) li:nth-child(3){
+  background-color: pink;
+}
+ul:nth-of-type(2) :hover{
+  font-weight: 800;
+}
+ul:nth-of-type(2) li:nth-child(1) :hover{
+color:orange;
+background-color: greenyellow;
+}
+ul:nth-of-type(2) :hover li:nth-of-type(2){
+  color: green;
+}
+ul:nth-of-type(2) :hover li:nth-of-type(3){
+  color: black;
+}
+ul:nth-of-type(2) :hover li:nth-of-type(4){
+  color: yellow;
+}
+ul:nth-of-type(2) :hover li:nth-of-type(5){
+  color: green;
+}
