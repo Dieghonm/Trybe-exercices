@@ -1,0 +1,32 @@
+
+
+
+.tamanho{
+  width: 110px;
+}
+.super-mario{
+  position: absolute;
+  left: 200px;
+}
+.goomba{
+  position: absolute;
+  top: 250px;
+  left: 200px
+  
+}
+.baloon{
+  position: absolute;
+  top: 400px;
+  z-index: 1;
+}
+.bowser{
+  position: absolute;
+  top: 410px;
+  left: 120px
+}
+.word{
+  position: absolute;
+  z-index: 2;
+  top: 400px
+  
+}
